@@ -214,6 +214,7 @@ from service-ipv4-cidr.
 1. Make sure to have the right permissions for the GCP account to create above GCP/Kubernetes Engine resources in project. Otherwise, permission denied error is thrown.
 1. Make sure that the deployments created through install script are deleted before you try to re-install the resources. Otherwise, resources will not be installed properly.
 1. If there are any errors in cleanup script execution, refer to steps for deleting resources manually.
+1. If you get an error while running the install script run the clean script or manually delete the resources and attempt the install script again.
 
 ## Deleting Resources Manually
 1. Goto Kubernetes Engine -> services. Delete all the services created through install script.
